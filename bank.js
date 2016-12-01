@@ -11,7 +11,8 @@ Bank.prototype = {
     return this.accounts.find(function(account){
       return account.name === name;
     });
-  }
+  },
+  findTotalAccountValue: function()
 };
 
 module.exports = Bank;
